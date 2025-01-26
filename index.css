@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    height: 30rem;
+    width: 20rem;
+    /* border: 1px solid red; */
+    padding: 1rem;
+    background-color: black;
+    border-radius: 1rem;
+    margin: auto;
+    margin-top: 4rem;
+}
+.display{
+    height: 5rem;
+    width: 19.8rem;
+    /* border: 1px solid green; */
+    background-color: gray;
+}
+.btns{
+    height: 24rem;
+    width: 19.8rem;
+    /* border: 1px solid yellow; */
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    height: 4rem;
+    width: 19.8rem;
+    /* border: 1px solid pink; */
+    display: flex;
+    /* justify-content: space-evenly */
+    margin: auto;
+}
+.cal_btn{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(40, 34, 34);
+    border: none;
+    color: white;
+    font-size: xx-large;  
+}
+.display-input{
+    height: 94%;
+    width: 96%;
+    font-size: xx-large;
+    text-align: right;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+.display-input:focus{
+    border: none;
+}
+.cal_btn_func{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(243, 166, 0);
+    border: none;
+    color: white;
+    font-size: xx-large;    
+}
+.cal_btn_func_2{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(67, 67, 65);
+    border: none;
+    color: white;
+    font-size: xx-large;
+}
+.cal_btn_func:hover{
+    background-color: rgb(241, 182, 55);
+}
+.cal_btn_func_2:hover{
+    background-color: rgb(105, 105, 103);
+}
+.cal_btn:hover{
+    background-color: rgb(77, 65, 65);
+}
